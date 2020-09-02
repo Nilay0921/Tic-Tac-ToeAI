@@ -1,0 +1,59 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+    position: absolute;
+    top: 100px;
+    left: 42.5%;
+}
+
+table {
+    position: absolute;
+    left: 39.5%;
+    top: 200px;
+}
+
+td {
+    border: 2px solid rgb(7, 177, 154);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 75px;
+    cursor: pointer;
+}
+
+.end {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    flex-direction: column;
+}
+
+.end button {
+    font-size: 3rem;
+    background-color: turquoise;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.end button:hover {
+    background-color: rgb(64, 17, 192);
+    color: white;
+    border-color: white;
+}
+
+.end.show {
+    display: flex;
+}
+
