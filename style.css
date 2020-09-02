@@ -4,21 +4,20 @@ html {
 
 .title {
     position: absolute;
-    font-size: 30px;
-    top: 40px;
-    left: 32.5%;
+    top: 100px;
+    left: 38.5%;
 }
 
 table {
     position: absolute;
-    left: 30.5%;
+    left: 35.5%;
     top: 200px;
 }
 
 td {
     border: 2px solid rgb(7, 177, 154);
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     text-align: center;
     vertical-align: center;
     font-size: 75px;
